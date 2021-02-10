@@ -95,10 +95,41 @@
 #     print('Введённая строка достаточной длины')
 # print('Выход')
 
-def hw():
-    print("Hello,world")
+# Тут про функции
 
+# def hw():
+#     print("Hello,world")
+#
+#
+# hw()
+# hw()
+# hw()
 
-hw()
-hw()
-hw()
+# Работа с переменными
+
+# def maxfunction1(a, b):
+#     if a > b:
+#         print(f"{a} больше {b}")
+#     elif a == b:
+#         print(f"{a} равно {b}")
+#     else:
+#         print(f"{a} меньше {b}")
+#
+#
+# a = int(input("Введите первое число для сравнения : "))
+# b = int(input("Введите второе число для сравнения : "))
+#
+# maxfunction1(a, b)
+
+# Глобальная переменная
+
+# a = int(input("Введите число для деления : "))
+#
+# def delenie():
+#     global a
+#     print("глобальная А", a)
+#     a = a / 100
+#     print("Поделённая А", a)
+#
+# delenie()
+# print("Результат", a)
