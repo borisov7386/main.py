@@ -161,6 +161,17 @@
 #
 # print(y)
 
+# # Значения по умолчанию
+# text = input("Введите значение ")
+# times = int(input("Сколько раз повторить? "))
+#
+#
+# def say(text, times = 10):
+#     print(text * times)
+#
+#
+# say(text, times)
+
 
 
 
