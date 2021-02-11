@@ -142,9 +142,11 @@
 #
 # def func_out():
 #     global y
+#     print(y)
 #     x = y *10
 #     print("x = y *10 =", x)
 #     y = y + 777
+#     print(y)
 #
 #     def func_in():
 #         nonlocal x
@@ -154,7 +156,9 @@
 #
 #     func_in()
 #
+#
 # func_out()
+#
 # print(y)
 
 
