@@ -133,3 +133,31 @@
 #
 # delenie()
 # print("Результат", a)
+
+# Глобальные и НЕлокальные переменные
+
+# y = 2
+# print("Глобальный y =", y)
+#
+#
+# def func_out():
+#     global y
+#     x = y *10
+#     print("x = y *10 =", x)
+#     y = y + 777
+#
+#     def func_in():
+#         nonlocal x
+#         print(x)
+#         x = 210
+#         print(x)
+#
+#     func_in()
+#
+# func_out()
+# print(y)
+
+
+
+
+
