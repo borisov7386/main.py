@@ -172,7 +172,11 @@
 #
 # say(text, times)
 
-
-
-
-
+# # Ключевые аргументы
+#
+# def func(a, b=5, c=100):
+#     print(a, b, c)
+#
+# func(1000)
+# func(1, 2, 3)
+# func(b=100, c=20, a=30)
