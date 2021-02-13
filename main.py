@@ -180,3 +180,18 @@
 # func(1000)
 # func(1, 2, 3)
 # func(b=100, c=20, a=30)
+
+# Переменное число аргументов функции
+
+def total(a=5, *numbers, **names):
+    print("a", a)
+
+    for digit in numbers:
+        print("digit", digit)
+
+    for first, second in names.items():
+        print(first, second)
+
+
+print(total(10, 20, 130, 500, 700, j=1, g=2, e=5, t=88))
+
