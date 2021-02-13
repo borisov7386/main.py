@@ -183,15 +183,40 @@
 
 # Переменное число аргументов функции
 
-def total(a=5, *numbers, **names):
-    print("a", a)
+# def total(a=5, *numbers, **names):
+#     print("a", a)
+#
+#     for digit in numbers:
+#         print("digit", digit)
+#
+#     for first, second in names.items():
+#         print(first, second)
+#
+#
+# print(total(10, 20, 130, 500, 700, j=1, g=2, e=5, t=88))
 
-    for digit in numbers:
-        print("digit", digit)
+# Только ключевые параметры
 
-    for first, second in names.items():
-        print(first, second)
+# def total(initial=1, *numbers, extra_number):
+#     count = initial
+#     for number in numbers:
+#         count += number
+#     count += extra_number
+#     print(count)
+#
+#
+# total(0, 1, 2, 3, 4, extra_number=0)
+#
+# Операция Return
 
-
-print(total(10, 20, 130, 500, 700, j=1, g=2, e=5, t=88))
+# def maximum(x, y):
+#     if x > y:
+#         return print("Первое число больше второго и равно ", x)
+#     elif x == y:
+#         return "равно"
+#     else:
+#         return y
+#
+#
+# print(maximum(30, 3))
 
