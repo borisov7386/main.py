@@ -217,6 +217,34 @@
 #     else:
 #         return y
 #
+# # Встроенная функция максимума
 #
-# print(maximum(30, 3))
+# # print(maximum(30, 3))
+#
+# p = (1, 10, 100)
+#
+# print(max(p))
+
+# Строки документации
+
+# def superfunction():
+#     """Просто пездатая
+#
+#     и ниибическая функция"""
+#     pass
+#
+#
+# print(superfunction.__doc__)
+
+# help(max)
+
+# Модули
+
+import sys
+
+print("аргументы командной строки")
+for i in sys.argv:
+    print(i)
+
+print(sys.path)
 
