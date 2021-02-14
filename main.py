@@ -197,7 +197,7 @@
 
 # Только ключевые параметры
 
-# def total(initial=1, *numbers, extra_number):
+# def total(*numbers, extra_number, initial=5):
 #     count = initial
 #     for number in numbers:
 #         count += number
@@ -205,7 +205,7 @@
 #     print(count)
 #
 #
-# total(0, 1, 2, 3, 4, extra_number=0)
+# total(0, 1, 2, 3, 4, extra_number=0, initial=100)
 #
 # Операция Return
 
