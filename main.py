@@ -272,3 +272,13 @@
 #     count = count + 1
 #     a = a + 2
 # print(p)
+
+# Импорт самодельного модуля
+
+# import modyle
+#
+# modyle.sayhi()
+# print("version", modyle.__version__)
+
+
+
