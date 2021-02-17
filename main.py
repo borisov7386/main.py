@@ -280,5 +280,61 @@
 # modyle.sayhi()
 # print("version", modyle.__version__)
 
+# Функция DIR
 
+# import telebot
+#
+# print(dir(telebot))
 
+# a = 5
+#
+# print(dir())
+
+# print(dir(print()))
+
+# Работа со списками: сортировка, удаление, добавление. Выбор окончания строки в принт + итеративный вывод в for
+
+# shoplist = ["Яблоки", "Груши", "Бананы", "Помидоры"]
+#
+# print("Количество в списке", len(shoplist))
+# print("Покупки:", end=" ")
+# for items in shoplist:
+#     print(items, end=", ")
+#
+# print('\n\nТакже нужно купить риса.\n')
+# shoplist.append("Рис")
+# print("Теперь мой список покупок такой:", shoplist, "\n\nТеперь тоже самое, только красиво:")
+#
+# print("Покупки:", end=" ")
+# for items in shoplist:
+#     print(items, end=", ")
+#
+# shoplist.sort()
+# print("\n\nТеперь мой список покупок такой:", shoplist, "\n\nТеперь тоже самое, только по алфавиту:")
+#
+# print("Покупки:", end=" ")
+# for items in shoplist:
+#     print(items, end=", ")
+#
+# print("\n\nПервое что мне нужно купить:", shoplist[0])
+# olditem = shoplist[0]
+# del shoplist[0]
+#
+# print("Я купил", olditem, "\nТеперь мой список покупок:", shoplist)
+# print("\n\nПокупки:", end=" ")
+# for items in shoplist:
+#     print(items, end=", ")
+
+# print(help(list))
+
+# Списки изменяемые, а кортежи нетё
+
+# main = "объект 1", "объект 2", "объект 3"
+# print("Кол-во объектов в кортеже:", len(main))
+#
+# main_new = "Объект 0", "объект 00", main
+# print("Кол-во объектов в кортеже:", len(main_new))
+# print("Список объектов:", main_new)
+# print(main_new[2])
+# print(main_new[2][2])
+# print("Кол-во объектов всего:", len(main_new)-1 + len(main_new[2]))
