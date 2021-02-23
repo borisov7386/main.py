@@ -423,3 +423,8 @@
 # mylist = ['Бразилия', 'Россия', 'Индия', 'Китай']
 # print(delimiter.join(mylist))
 # print(mylist)
+
+import os
+import time
+print(os.sep)
+print(time.strftime('%Y%m%d%H%M%S'))
