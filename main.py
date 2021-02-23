@@ -380,4 +380,46 @@
 # for list_items in list:
 #     print(list.index(list_items), list_items)
 
+
+# cort = ("один", "два", "три", "четыре")
+# print("один" in cort)
+
 # Множество.
+
+# countries = set(["Бразилия", "Россия", "Швеция"])
+# print("Россия" in countries)
+# c2 = countries.copy()
+# c2.add("Япония")
+# c2.remove("Швеция")
+#
+# print(countries.intersection(c2))
+# print(countries.difference(c2))
+# print(countries.symmetric_difference(c2))
+
+# ССылки
+
+# shoplist = ["Яблоки", "Груши", "Помидоры"]
+# newlist = shoplist
+#
+# # del newlist[2]
+# # print(newlist, shoplist)
+#
+# newlist2 = shoplist[:]
+# print(shoplist)
+# print(newlist2)
+# del shoplist[2]
+# print(shoplist)
+# print(newlist2)
+
+# name = 'Swaroop' # Это объект строки
+# if name.startswith('Swa'):
+#     print('Да, строка начинается на "Swa"')
+# if 'a' in name:
+#     print('Да, она содержит строку "a"')
+# if name.find('war') != -1:
+#     print('Да, она содержит строку "war"')
+# delimiter = ', '
+#
+# mylist = ['Бразилия', 'Россия', 'Индия', 'Китай']
+# print(delimiter.join(mylist))
+# print(mylist)
