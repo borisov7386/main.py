@@ -338,3 +338,46 @@
 # print(main_new[2])
 # print(main_new[2][2])
 # print("Кол-во объектов всего:", len(main_new)-1 + len(main_new[2]))
+
+
+#  Словари
+#
+# dict = {'Юзер1' : 'value1', 'Юзер2' : 'value2'}
+#
+# print("Ключ юзера 1: ", dict['Юзер1'])
+#
+# del dict['Юзер1']
+#
+# dict["Юзер3"] = "Value3"
+#
+# print("Ключ юзера 3: ", dict['Юзер3'], "\n")
+#
+# for item, value in dict.items():
+#     print("Объект {0} с значением {1}".format(item, value))
+#
+# dict["Юзер3"] = "Value33333"
+#
+# print("Ключ юзера 3: ", dict['Юзер3'], "\n")
+
+
+# Вырезки. Можно вырезать куски из последовательностей, можно выбирать шаг вырезки
+# name = "двадцатьдва"
+#
+# print(name[2:], "\n")
+#
+# cort = ("один", "два", "три", "четыре")
+# print(cort[1:])
+#
+# cort2 = cort[1:]
+#
+# print(cort2)
+#
+# for cortlist in cort2:
+#     print(cortlist)
+
+# list = ["один", "два", "три", "четыре"]
+#
+# for list_items in list:
+#     print(list.index(list_items), list_items)
+
+# Множество.
