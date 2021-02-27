@@ -428,3 +428,39 @@
 # import time
 # print(os.sep)
 # print(time.strftime('%Y%m%d%H%M%S'))
+
+# name = 'Swaroop' # Это объект строки
+# if name.startswith('Swa'):
+#     print('Да, строка начинается на "Swa"')
+# if 'a' in name:
+#     print('Да, она содержит строку "a"')
+# if name.find('war') != -1:
+#     print('Да, она содержит строку "war"')
+# else:
+#     print(1)
+
+# delimiter = '_*_'
+# mylist = ['Бразилия', 'Россия', 'Индия', 'Китай']
+# print(delimiter.join(mylist))
+# print(mylist)
+# #
+# a = 6
+# if a < -5:
+#     print('Low')
+# if -5 <= a <= 5:
+#     print('Mid')
+# if a == -6:
+#     print(-6)
+# else:
+#     print('High')
+#
+# name = "zuxel"
+# print(name.find("d"))
+# import os
+#
+# print(os.sep)
+#
+# os.rmdir("/home/zuxel/back")
+
+# print(os.path.abspath(os.curdir))
+# print(os.path.dirname("/home/zuxel/back/2021-02-27-213918.zip"))

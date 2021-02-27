@@ -17,15 +17,14 @@ source_dir = ["/home/zuxel/copy"]
 files = os.listdir(source_dir[0])
 print(files)
 
-# target_dir = "/home/zuxel/back"
-#
-# target_name = target_dir + os.sep + time.strftime('%Y%m%d%H%M%S') + '.zip'
-#
-# zip_command = "zip -r {0} {1}".format(target_name, " ".join(source_dir))
-#
-# print(zip_command)
-#
-# if os.system(zip_command) == 0:
-#     print("Done, лежит в", target_name)
-# else:
-#     print("Что то пошло не так, чувак")
+target_dir = "/home/zuxel/back"
+
+target_name = target_dir + os.sep + time.strftime('%Y-%m-%d-%H%M%S') + '.zip'
+
+zip_command = "zip -r {0} {1}".format(target_name, " ".join(source_dir))
+
+if os.system(zip_command) == 0:
+    print("Done, лежит в", target_name)
+else:
+    print("Что то пошло не так, чувак")
+
