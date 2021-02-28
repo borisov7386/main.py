@@ -464,3 +464,6 @@
 
 # print(os.path.abspath(os.curdir))
 # print(os.path.dirname("/home/zuxel/back/2021-02-27-213918.zip"))
+import sys
+
+print(sys.argv)

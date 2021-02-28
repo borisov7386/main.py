@@ -67,6 +67,7 @@
 # Подключаем модули
 import os
 import time
+import sys
 # Откуда копируем
 source_dir = ["/home/zuxel/copy"]
 # Куда копируем
@@ -104,3 +105,5 @@ if os.system(zip_command) == 0:
     print("Done, лежит в", target_name)
 else:
      print("Что то пошло не так, чувак")
+
+print(sys.argv)
