@@ -67,7 +67,6 @@
 # Подключаем модули
 import os
 import time
-import sys
 # Откуда копируем
 source_dir = ["/home/zuxel/copy"]
 # Куда копируем
@@ -89,7 +88,6 @@ else:
     # Имя файла с архивом + комментарий. Если в комментарии есть проблемы, заменяем их на _
     file_name = time.strftime("%H%M%S") + "_" + comment.replace(" ", "_")
 print(file_name)
-
 # Создаём папку внутри папки назначения, если ее ещё нет
 if not os.path.exists(folder_name):
     os.mkdir(folder_name)
@@ -105,5 +103,3 @@ if os.system(zip_command) == 0:
     print("Done, лежит в", target_name)
 else:
      print("Что то пошло не так, чувак")
-
-print(sys.argv)
