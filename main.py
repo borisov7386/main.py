@@ -49,32 +49,32 @@
 
 # Теперь тоже самое через break ----------------------------------
 
-# number = 125
-# user_name = input("Как тебя зовут? ")
-# running = True
-#
-# if user_name.casefold().__contains__("госпо"):
-#     print("ну ты наглый конечно, буду звать тебя говно")
-#     user_name = "говно"
-#
-# if user_name.casefold().__contains__("повел"):
-#     print("ну ты наглый конечно, буду звать тебя говно")
-#     user_name = "говно"
-#
-# print(f"{user_name}! Угадай число")
-#
-# while True:
-#     user_input = int(input("Введи число : "))
-#
-#     if number == user_input:
-#         print("Молодец, угадал \n:)")
-#         break
-#     if number > user_input:
-#         print("Маловато \n :)")
-#     if number < user_input:
-#         print("Многовато \n :)")
-#
-# print(f"Пока {user_name}, запусти меня ещё раз")
+number = 125
+user_name = input("Как тебя зовут? ")
+running = True
+
+if user_name.casefold().__contains__("госпо"):
+    print("ну ты наглый конечно, буду звать тебя говно")
+    user_name = "говно"
+
+if user_name.casefold().__contains__("повел"):
+    print("ну ты наглый конечно, буду звать тебя говно")
+    user_name = "говно"
+
+print(f"{user_name}! Угадай число")
+
+while True:
+    user_input = int(input("Введи число : "))
+
+    if number == user_input:
+        print("Молодец, угадал \n:)")
+        break
+    if number > user_input:
+        print("Маловато \n :)")
+    if number < user_input:
+        print("Многовато \n :)")
+
+print(f"Пока {user_name}, запусти меня ещё раз")
 
 #  while True:
 #      s = input('Введите что-нибудь : ')
