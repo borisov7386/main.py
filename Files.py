@@ -15,3 +15,5 @@ while True:
         break
     print(line, end='')
 f.close()  # закрываем файл
+
+# 126
